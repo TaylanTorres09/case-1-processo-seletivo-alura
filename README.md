@@ -5,4 +5,18 @@ A ideia deste post é trazer uma noção sobre o desenvolvimento de **api rest**
 
 Também será abordada a utilização de padrões de design e organização de pacotes.
 
-<!-- ## Spring [Initializr](https://start.spring.io/) -->
+## Spring [Initializr](https://start.spring.io/)
+
+## Model
+
+## DTO - Objeto para transferência de dados
+
+## Repository
+
+### Banco de dados
+
+## Service
+
+## Controller
+
+## Conclusão e discurssões
