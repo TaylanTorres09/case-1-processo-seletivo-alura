@@ -35,8 +35,13 @@ O consumo de *APIs REST* é feito utilizando o protocolo [*HTTP*](https://www.al
 - PUT: Substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
 - DELETE: Remove um recurso específico.
 
-
 ## Spring [Initializr](https://start.spring.io/)
+
+Após um apanhado geral para termos uma ideia sobre o que é *API*, *REST* e os métodos *HTTP*, vamos colocar a "mão na massa", com um exemplo real.
+
+Para facilitar a criação de aplicações utilizando outras [IDEs](https://www.redhat.com/pt-br/topics/middleware/what-is-ide) a [*Spring*](https://spring.io/projects) disponibilizou o [*Spring Initializr*](https://start.spring.io/), onde é permitido a criação de projetos, podemos definir nome de pacote, dependências e linguagem (Java, Groovy e Kotlin).
+
+![Spring Initializr](README_IMG/Spring%20Initializr.png)
 
 ## Model
 
