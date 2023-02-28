@@ -63,6 +63,10 @@ Abaixo vemos o *DTO* da entidade categoria, onde utilizamos tanto para obter dad
 
 ## Repository
 
+Cada classe implementada no *model* deverá possuir uma interface de acesso ao banco de dados, é a partir deste momento onde surgisse a ideia da camada de *repository* e para que haja persistência nas nossas classes, precisamos utilizar o [*Spring Data*](https://spring.io/projects/spring-data). Para o projeto de exemplo foi utilizando o [*Spring Data JPA*](https://spring.io/projects/spring-data-jpa).
+
+![Repository](README_IMG/repository.png)
+
 ### Banco de dados
 
 ## Service
