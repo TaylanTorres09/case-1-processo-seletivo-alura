@@ -69,6 +69,22 @@ Cada classe implementada no *model* deverá possuir uma interface de acesso ao b
 
 ### Banco de dados
 
+Um banco de dados é uma coleção organizada de informações ou dados estruturadas, normalmente armazenadas eletronicamente em um sistema de computador.
+
+Para o projeto de exemplo foram criados dois perfis, um para testes (*test*) e outro para desenvolvimento (*dev*), seguem as configurações do *application.properties* dentro da pasta [*recourses*](https://github.com/TaylanTorres09/book-store-api/tree/main/src/main/resources) criada pelo [*Spring Initializr*](https://start.spring.io/).
+
+Para o perfil *test* foi utilizado o Banco [H2](https://www.h2database.com/html/main.html) utilizado em memória, coloquei neste pois é um banco de fácil configuração e utilização.
+
+![ApplicationProperties](README_IMG/application-test.properties.png)
+
+- Para o perfil *dev* foi utilizado o Banco [MySQL](https://www.mysql.com/products/workbench/).
+
+![ApplicationProperties](README_IMG/application-dev.properties.png)
+
+- Para seleção do perfil **test** para perfil de teste e **dev** para perfil de desenvolvimento.
+
+![ApplicationProperties](README_IMG/application.properties.png)
+
 ## Service
 
 ## Controller
@@ -82,3 +98,5 @@ Disponível em [DESENVOLVIMENTO DE API REST COM SPRING BOOT](https://www.unirios
 Ilustração REST API, disponível em: [Why is RESTful API so popular?](https://blog.bytebytego.com/p/why-is-restful-api-so-popular) Acesso: Fev/2023.
 
 DTO, disponível em: [Design Patterns - DTO](https://javabahia.github.io/falando-sobre-dto/) Acesso: Fev/2023.
+
+O que é um Banco de Dados? disponível em: [O que é um Banco de Dados?](https://www.oracle.com/br/database/what-is-database/#:~:text=Um%20banco%20de%20dados%20%C3%A9,banco%20de%20dados%20(DBMS).) Acesso Fev/2023.
