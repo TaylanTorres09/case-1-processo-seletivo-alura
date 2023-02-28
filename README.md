@@ -33,3 +33,7 @@ Vale ressaltar que a *API* não está diretamente associada a uma linguagem de p
 ## Controller
 
 ## Conclusão e discurssões
+
+## Referências
+
+Disponível em [DESENVOLVIMENTO DE API REST COM SPRING BOOT](https://www.unirios.edu.br/revistarios/media/revistas/2021/29/desenvolvimento_de_api_rest_com_spring_boot.pdf) Acesso: Fev/2023. 
