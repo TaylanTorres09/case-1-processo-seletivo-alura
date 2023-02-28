@@ -45,6 +45,14 @@ Para facilitar a criação de aplicações utilizando outras [IDEs](https://www.
 
 ## Model
 
+Este é o pacote que contém as informações da entidade do projeto, contendo classes com um ou mais construtores e atributos.
+
+Abaixo segue exemplo da [entidade categoria](https://github.com/TaylanTorres09/book-store-api/blob/main/src/main/java/com/bookstore/bookstore/models/Category.java) da *API* para livraria.
+
+![Category](README_IMG/model-categoria.png)
+
+Neste projeto foi utilizado a biblioteca [Lombok](https://projectlombok.org/), utilizada para redução de código *boilerplate*.
+
 ## DTO - Objeto para transferência de dados
 
 ## Repository
