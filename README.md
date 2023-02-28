@@ -122,3 +122,7 @@ Ilustração REST API, disponível em: [Why is RESTful API so popular?](https://
 DTO, disponível em: [Design Patterns - DTO](https://javabahia.github.io/falando-sobre-dto/) Acesso: Fev/2023.
 
 O que é um Banco de Dados? disponível em: [O que é um Banco de Dados?](https://www.oracle.com/br/database/what-is-database/#:~:text=Um%20banco%20de%20dados%20%C3%A9,banco%20de%20dados%20(DBMS).) Acesso Fev/2023.
+
+# AUTOR
+
+Sou Taylan Torres Costa, acesse meu *LinkedIn*: https://www.linkedin.com/in/taylan-torres/
