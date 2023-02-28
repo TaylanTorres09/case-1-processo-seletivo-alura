@@ -107,6 +107,12 @@ Camada de *controller* também chamada de camada de recursos, é responsável pe
 
 ## Discurssões Finais
 
+Por fim essa foi uma apresentação introdutória sobre o *Spring Boot* e sobre sua organização.
+
+Não foi abordado o assunto das *annotations* do *Spring Boot*, mas aconcelho a leitura do [*Spring Boot Annotations Everyone Should Know*](https://www.upgrad.com/blog/spring-boot-annotations/) escrita pelo Rohan Vats e também o vídeo da Michelli Brito [Spring Boot Annotations | +30 anotações na prática](https://www.youtube.com/watch?v=Pd5tr483No0).
+
+Foi um prazer escrever e compartilhar meus conhecimentos com quem quer aprender. Em caso de dúvida sobre a *Api* acesse https://github.com/TaylanTorres09/book-store-api e pode fazer um [*fork*](https://github.com/TaylanTorres09/book-store-api/fork) e aproveitar. 
+
 ## Referências
 
 Disponível em [DESENVOLVIMENTO DE API REST COM SPRING BOOT](https://www.unirios.edu.br/revistarios/media/revistas/2021/29/desenvolvimento_de_api_rest_com_spring_boot.pdf) Acesso: Fev/2023. 
