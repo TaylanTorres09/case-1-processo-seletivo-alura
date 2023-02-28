@@ -37,7 +37,7 @@ O consumo de *APIs REST* é feito utilizando o protocolo [*HTTP*](https://www.al
 
 ## Spring [Initializr](https://start.spring.io/)
 
-Após um apanhado geral para termos uma ideia sobre o que é *API*, *REST* e os métodos *HTTP*, vamos colocar a "mão na massa", com um exemplo real.
+Após um apanhado geral para termos uma ideia sobre o que é *API*, *REST* e os métodos *HTTP*, vamos colocar a "mão na massa", com um exemplo real que consistem na criação de uma *API* para uma biblioteca, onde os livros serão cadastrados, atualizados e deletados. Cada livro terá uma categoria associada, onde para cadastrar um livro deverá preexistir uma categoria para o mesmo. Para mais informações acesse o [*README*](https://github.com/TaylanTorres09/book-store-api/blob/main/README.md) da aplicação.
 
 Para facilitar a criação de aplicações utilizando outras [IDEs](https://www.redhat.com/pt-br/topics/middleware/what-is-ide) a [*Spring*](https://spring.io/projects) disponibilizou o [*Spring Initializr*](https://start.spring.io/), onde é permitido a criação de projetos, podemos definir nome de pacote, dependências e linguagem (Java, Groovy e Kotlin).
 
@@ -55,6 +55,12 @@ Neste projeto foi utilizado a biblioteca [Lombok](https://projectlombok.org/), u
 
 ## DTO - Objeto para transferência de dados
 
+O padrão de *Data transfer object* ou simplesmente *DTO* é um padrão de arquitetura de objetos que agregam e encapsulam dados para transferência. Sua função é obter, armazenar e filtrar dados da nossa camada de persistência.
+
+Abaixo vemos o *DTO* da entidade categoria, onde utilizamos tanto para obter dados como para filtrar, pois é "escondido" os livros.
+
+![CategoryDTO](README_IMG/categoria-dto.png)
+
 ## Repository
 
 ### Banco de dados
@@ -70,3 +76,5 @@ Neste projeto foi utilizado a biblioteca [Lombok](https://projectlombok.org/), u
 Disponível em [DESENVOLVIMENTO DE API REST COM SPRING BOOT](https://www.unirios.edu.br/revistarios/media/revistas/2021/29/desenvolvimento_de_api_rest_com_spring_boot.pdf) Acesso: Fev/2023. 
 
 Ilustração REST API, disponível em: [Why is RESTful API so popular?](https://blog.bytebytego.com/p/why-is-restful-api-so-popular) Acesso: Fev/2023.
+
+DTO, disponível em: [Design Patterns - DTO](https://javabahia.github.io/falando-sobre-dto/) Acesso: Fev/2023.
