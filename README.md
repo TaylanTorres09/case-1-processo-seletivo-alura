@@ -93,9 +93,15 @@ Pasta designada a configurações ao executar nossa aplicação.
 
 ## Service
 
+Nesse pacote são colocadas as regras de negócio do sistema, no projeto da livraria não haverá muitas regras, porém para manter a padronização foi criado a pasta [*services*](https://github.com/TaylanTorres09/book-store-api/tree/main/src/main/java/com/bookstore/bookstore/service), onde na prática os *endpoints* da *API* não terão acesso direto a camada de *repository*.
+
+Segue exemplo:
+
+![Book Service](README_IMG/book%20service.png)
+
 ## Controller
 
-## Conclusão e discurssões
+## Discurssões Finais
 
 ## Referências
 
