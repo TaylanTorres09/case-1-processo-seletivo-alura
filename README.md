@@ -85,6 +85,12 @@ Para o perfil *test* foi utilizado o Banco [H2](https://www.h2database.com/html/
 
 ![ApplicationProperties](README_IMG/application.properties.png)
 
+## Configuration - Opcional
+
+Pasta designada a configurações ao executar nossa aplicação.
+
+![Test](README_IMG/configuration-test-profile.png)
+
 ## Service
 
 ## Controller
