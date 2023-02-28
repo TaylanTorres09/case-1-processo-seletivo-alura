@@ -8,15 +8,33 @@ Também será abordada a utilização de padrões de design e organização de p
 
 ## API
 
-A sigla *API* vem do inglês *Application Programming Interface* ou no português, Interface de Programação de Aplicativos. Com o objetivo de reutilização, são uma solução baseada no desacoplamento de sistemas seguindo suas definições e protocolos onde os componentes que o formam possam interagir entre si, isso proporciona diversas vantagens no desenvolvimento, pois será necessário apenas um *back-end* para se comunicar com diversas aplicações no *front-end*, podendo ser *web* ou *mobile*. Os formatos de comunicação mais conhecidos no mundo *web* desses dois "mundos", são o [*JSON*](https://pt.wikipedia.org/wiki/JSON) e o [*XML*](https://pt.wikipedia.org/wiki/XML)
+A sigla *API* vem do inglês *Application Programming Interface* ou no português, Interface de Programação de Aplicativos. Com o objetivo de reutilização, são uma solução baseada no desacoplamento de sistemas seguindo suas definições e protocolos onde os componentes que o formam possam interagir entre si, isso proporciona diversas vantagens no desenvolvimento, pois será necessário apenas um *back-end* para se comunicar com diversas aplicações no *front-end*, podendo ser *web* ou *mobile*. Os formatos de comunicação mais conhecidos no mundo *web* desses dois "mundos", são o [*JSON*](https://pt.wikipedia.org/wiki/JSON) e o [*XML*](https://pt.wikipedia.org/wiki/XML).
 
 A separação dessas responsabilidades em sistemas distribuídos corrobora para que cada camada possa evoluir de forma independente. Um grande exemplo muito utilizado é o serviço de geolocalização do *Google Maps*, em diversos clientes como aplicativos de *delivery*, transporte, trânsito (até mesmo pessoas que só andam perdidas kkkkk), utilizam seu serviço.
 
 Vale ressaltar que a *API* não está diretamente associada a uma linguagem de programação, segundo GOUVEIA a *API* é como um garçom de um restaurante. O cliente, neste caso a aplicação que deseja receber os serviços,recebe do garçom o menu com todos os itens daquele restaurante. Ao escolher uma opção o garçom leva este pedido até a cozinha, aplicação da *API*, onde por sua vez os cozinheiros, que são os serviços compartilhados pela aplicação, realizam o pedido como foi descrito pelo cliente. Ao concluir o pedido o cozinheiro avisa o garçom, este por sua vez entrega o pedido ao cliente completando o processo de exemplificação uma requisição de *API*.
 
+### Arquitetura REST
 
+A sigla *REST* vem do inglês *Representational State Transfer* ou no português Tansferência de Estado Representacional, abaixo segue uma ilustração representando essa arquitetura para sistemas distribuídos.
 
-(Representational State Transfer / Tansferência de Estado Representacional)
+![Api Rest](README_IMG/REST_API.png)
+
+Tilkov (2007, n.p., Trad. Google Translate) define REST como:
+> um conjunto de princípios que definem como os padrões da Web, como HTTP e URIs, devem ser usados (o que muitas vezes difere um pouco do que muitas pessoas realmente fazem). A promessa é que, se você aderir aos princípios do REST ao projetar seu aplicativo, terá um sistema que explora a arquitetura da Web em seu benefício.
+
+Então a utilização de *URI* na arquitetura *REST* faz com que todos os seus recursos sejam acessados por seus identificadores, exemplo em uma api para uma livraria [*BookStore*](https://github.com/TaylanTorres09/book-store-api) (criada pelo autor), onde tem-se requisições, seguem duas de exemplo.
+
+- Criar livros http://localhost:8080/book/create
+- Consultar categorias: http://localhost:8080/category/categories
+
+O consumo de *APIs REST* é feito utilizando o protocolo [*HTTP*](https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1), onde os verbos mais comuns são:
+
+- GET: Solicita a leitura de um recurso, retornando apenas os dados.
+- POST: Solicita a criação e injeção de dados.
+- PUT: Substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
+- DELETE: Remove um recurso específico.
+
 
 ## Spring [Initializr](https://start.spring.io/)
 
@@ -37,3 +55,5 @@ Vale ressaltar que a *API* não está diretamente associada a uma linguagem de p
 ## Referências
 
 Disponível em [DESENVOLVIMENTO DE API REST COM SPRING BOOT](https://www.unirios.edu.br/revistarios/media/revistas/2021/29/desenvolvimento_de_api_rest_com_spring_boot.pdf) Acesso: Fev/2023. 
+
+Ilustração REST API, disponível em: [Why is RESTful API so popular?](https://blog.bytebytego.com/p/why-is-restful-api-so-popular) Acesso: Fev/2023.
