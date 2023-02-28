@@ -101,6 +101,10 @@ Segue exemplo:
 
 ## Controller
 
+Camada de *controller* também chamada de camada de recursos, é responsável pela implementação de *endpoints*, essa é a porta de entrada para quem utiliza a *API*.
+
+![Book Controller](README_IMG/Controller.png)
+
 ## Discurssões Finais
 
 ## Referências
